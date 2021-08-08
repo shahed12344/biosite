@@ -1,0 +1,146 @@
+/*==========max-width:991px==========*/
+
+@media (max-width:991px) {
+
+    .container {
+        width: 100%;
+    }
+    #home {
+        padding: 50px 50px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .photo {
+        width: 100%;
+    }
+    .photo img {
+        width: 200px;
+    }
+    .shadow-bg-copy {
+        background-image: url(personal-info-sep-Copy.png) !important;
+        background-position: center;
+        background-position-y: 35px;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        background-size: 70%;
+    }
+    .bio {
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    .bio .bio-title-p {
+        width: 120px;
+    }
+
+    .blog-detail p {
+        margin-right: 19px;
+    }
+}
+
+
+/*==========max-width:991px==========*/
+
+@media (max-width:768px) {
+    .logo {
+        position: absolute;
+        top: -122px;
+    }
+    .logo h1 {
+        font-size: 19px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .logo h2 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .home-social {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #f3f3f3;
+    }
+    footer {
+        padding-top: 18px;
+        padding-bottom: 30px;
+    }
+    #home {
+        padding: 30px 30px;
+    }
+    .nav-link {
+        width: 70px;
+        padding: 23px 0px 15px 0px;
+        margin-top: -10px;
+    }
+    .nav-link i {
+        font-size: 25px;
+    }
+    .abs-tab {
+        position: absolute;
+        top: 70px;
+    }
+    .title {
+        text-align: center;
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .shadow-bg-copy {
+        background-size: 100%;
+    }
+    .photo img {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+    .shadow-bg-copy {
+        background-position-y: 18px;
+        padding-top: 25px;
+    }
+    .bio .bio-title-p {
+        width: 70px;
+    }
+    .Employment-box.contact-list {
+        margin-bottom: 10px;
+    }
+    .menu{
+        display: block;
+    }
+    .bars{
+        display: block;
+    }
+    .checkbox:checked ~ .bars{
+        display: none;
+    }
+    .checkbox:checked ~ .cross{
+        display: block;
+    }
+    .cetegory{
+        width: 100%;
+        margin-top: -385px;
+        padding-left: 15px;
+        border-left: 2px solid var(--primary);
+        z-index: -1;
+        position: relative;
+        opacity: 0;
+    }
+    .checkbox:checked ~ .cetegory{
+        margin-top: 33px;
+        z-index: 1;
+        opacity: 1;
+        transition: .6s;
+    }
+    #blog ul li a {
+        text-align: center;
+    }
+    .blog-card {
+        margin-bottom: 45px;
+    }
+    .blog-detail p {
+        margin-right: 22px;
+    }
+}
